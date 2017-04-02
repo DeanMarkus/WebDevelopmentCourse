@@ -1,0 +1,57 @@
+body 
+{
+    direction:rtl;
+}
+#container {
+    margin: auto 0px;
+    padding: 50px;
+    border: 5px solid brown;
+    background-color: bisque;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+#image {
+    background-image: url("../images/tumblr_m7nweb4mcR1rzwwt3o1_500.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+    #image:hover {
+        background-image: url('../images/ski.JPG');
+        background-size: 400px;
+        background-repeat: no-repeat;
+    }
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    font-family:'Times New Roman', Times, serif;
+}
+p {
+    color: black;
+    font-weight: bolder;
+}
+span {
+    color: saddlebrown;
+    font-weight: bold;
+}
+ul {
+    color: saddlebrown;
+    font-weight: bold;
+    list-style-type: none;
+}
+a {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 14pt;
+}
+a:hover {
+    color: crimson;
+    font-weight: bold;
+    font-size: 16pt;
+}
+a:active {
+    color: red;
+    font-weight: bolder;
+    font-size: 16pt;
+}
