@@ -1,0 +1,221 @@
+body {
+    direction: rtl;
+}
+/*אזור התכולה בעמוד*/
+#container {
+    margin: auto;
+    width: 960px;
+    height: 600px;
+    padding: 50px;
+    border: 5px solid lightsteelblue;
+    background-color: lightcyan;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+#main {
+    margin-top: 100px;
+}
+/*מרחב התמונה*/
+#main:hover {
+    background-image: url('../images/ski.JPG');
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+/*תיבת הכותרת*/
+header {
+    text-align: center;
+    display: block;
+    margin: 15px;
+}
+/*הכותרת הראשית*/
+h1 {
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+    padding: 10px;
+}
+/*פסקת המלל*/
+section {
+    position: right center;
+    width: 430px;
+}
+/*הכותרת המשנית*/
+h2 {
+    font-size: 26pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+    padding: 10px;
+}
+/*המלל עצמו*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 24pt;
+    display: block;
+    padding: 10px;
+}
+p:nth-child(odd) {
+    color: orangered;
+}
+p:nth-child(even) {
+    color: purple;
+}
+/*תפריט ניווט עסקים*/
+#navBus ul {
+    list-style: none;
+    width: 300px;
+    margin-right: 50px;
+}
+#navBus ul li {
+    display: inline-block;
+    float: right;
+}
+#navBus ul li:after {
+    content: ">";
+}
+#navBus ul li:last-child:after {
+    content: "";
+}
+#navBus ul li a {
+    display: inline-block;
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    Padding-top: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#navBus ul li a:hover {
+    background-color: lightgrey;
+    color: midnightblue;
+}
+
+#navBus ul li a:active {
+    background-color: powderblue;
+    color: dimgrey;
+}
+/*תפריט ניווט השכלה*/
+#navEd ul {
+    list-style: none;
+    width: 300px;
+    margin-right: 50px;
+}
+
+    #navEd ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #navEd ul li:after {
+            content: ">";
+        }
+
+        #navEd ul li:last-child:after {
+            content: "";
+        }
+
+        #navEd ul li a {
+            display: inline-block;
+            background-color: darkslategrey;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 90px;
+            height: 20px;
+            Padding-top: 5px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+            #navEd ul li a:hover {
+                background-color: lightgrey;
+                color: midnightblue;
+            }
+
+            #navEd ul li a:active {
+                background-color: powderblue;
+                color: dimgrey;
+            }
+/*תפריט ניווט תחביבים*/
+#navHob ul {
+    list-style: none;
+    width: 300px;
+    margin-right: 50px;
+}
+
+    #navHob ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #navHob ul li:after {
+            content: ">";
+        }
+
+        #navHob ul li:last-child:after {
+            content: "";
+        }
+
+        #navHob ul li a {
+            display: inline-block;
+            background-color: darkslategrey;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 90px;
+            height: 20px;
+            Padding-top: 5px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+            #navHob ul li a:hover {
+                background-color: lightgrey;
+                color: midnightblue;
+            }
+
+            #navHob ul li a:active {
+                background-color: powderblue;
+                color: dimgrey;
+            }
+/*תפריט ניווט ראשי*/
+#nav1 ul {
+    list-style: none;
+    width: 512px;
+    margin: 0 auto;
+}
+#nav1 ul li {
+    display: inline-block;
+    float: right;
+}
+#nav1 ul li a {
+    display: block;
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    Padding-top: 10px;
+    border: 1px solid black;
+    margin: 1px;
+}
+#nav1 ul li a:hover {
+    background-color:lightgrey;
+    color:midnightblue;
+}
+#nav1 ul li a:active {
+    background-color: powderblue;
+    color: dimgrey;
+}
+#nav1 ul li ul {
+    display: none;
+    position: absolute;
+}
+#nav1 ul li:hover ul {
+    display: block;
+    width: 120px;
+}
