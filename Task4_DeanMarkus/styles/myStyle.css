@@ -1,0 +1,113 @@
+body 
+{
+    direction:rtl;
+}
+body:hover {
+    background-image: url("../images/Old_mynetholon_dyncontent_t_post_2017_3_26_934266183576151162636_510_1000_Fit_.jpg");
+}
+#container {
+    margin: auto;
+    width: 960px;
+    height: 770px;
+    border: 5px solid lightseagreen;
+    background-color: ghostwhite;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: coral;
+    font-size: 24pt;
+    margin-top: 40px;
+}
+h2 {
+    color: lightseagreen;
+    font-size: 30pt;
+    margin-top: 30px;
+}
+h3 {
+    color: lightseagreen;
+    font-size: 24pt;
+    margin: 30px 350px 10px 350px;
+    padding: 5px 0px 5px 0px;
+    background-color: white;
+    border: 2px solid lightseagreen;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+section {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-left: 45px;
+}
+li {
+    color: lightseagreen;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 2px solid lightseagreen;
+    background-color: white;
+    margin: 1px 400px 1px 400px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+section>p {
+    color: black;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 30px;
+}
+form {
+    text-align: center;
+    margin: 0px 120px 0px 120px;
+    padding: 5px 0px 5px 0px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+label {
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 30px 10px 30px;
+}
+#mytxt {
+    display: block;
+    text-align: center;
+}
+#mymail {
+    display: block;
+    text-align: center;
+}
+#mytel {
+    display: block;
+    text-align: center;
+}
+.site {
+    text-align: center;
+}
+.site > p {
+    color: black;
+    font-size: 16pt;
+    font-weight: bold;
+}
+#hit {
+    background-image: url("../images/HITLog.jpg");
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    display: inline-block;
+}
+aside {
+    margin-right: 40px;
+}
+aside>p {
+    color: black;
+    font-weight: normal;
+    font-size: 14pt;
+}

@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>יש כאלה שמחפשים בלי הפסקה...</h1>
+            <h2>ויש כאלה שכבר מצאו!</h2>
+        </header>
+        <section>
+            <h3>טכנולוגיות למידה</h3>
+            <ul>
+                <li>עיצוב</li>
+                <li>תכנות</li>
+                <li>הוראה</li>
+            </ul>
+            <p>מעוניין לשמוע עוד? מלא את פרטייך ונציג יחזור אליך בהקדם!</p>
+        </section>
+        <form>
+            <input type="hidden" id="myEmail" name="name" value="deanmarkus305@gmail.com" />
+            <label for="mytxt"> הזן את שמך: <input type="text" id="mytxt" placeholder="רשום כאן את שמך" /> </label>
+            <label for="mymail"> כתובת המייל שלך: <input type="email" id="mymail" placeholder="MyMail@example.com" /> </label>
+            <label for="mytel"> מס' הטלפון שלך: <input type="tel" id="mytel" placeholder="מספר טלפון" /> </label> </br>
+            <label for="rd1"> <input type="radio" id="rd1" name="now" checked /> אני מאשר קבלת שיחות טלפון מנציג המכון </label>
+            <label for="rd2"> <input type="radio" id="rd2" name="now" /> אני מאשר קבלת הודעות מייל בלבד </label> </br>
+            <input type="submit" id="SendForm" value="שלח"/>
+            <div id="feedback"></div>
+        </form>
+        <div class="site">
+            <p>לפרטים נוספים מעמוד הפקולטה לחצו על הלוגו הבא:</p>
+            <a id="hit" href="http://www.hit.ac.il/telem/overview" target="_blank"></a>
+        </div>
+        <aside>
+            <p>*הכתוב מנוסח בלשון זכר אך מתייחס לשני המינים</p>
+        </aside>
+    </div>
+</body>
+</html>
