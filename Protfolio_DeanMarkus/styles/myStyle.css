@@ -1,0 +1,304 @@
+body 
+{
+    direction:rtl;
+}
+body {
+    background-image: url("../images/IMG_20150102_123814.jpg");
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: static;
+}
+#container {
+    margin: auto;
+    width: 960px;
+    height: 770px;
+    border: 5px solid #482602;
+    background-color: rgba(250, 235, 203, 0.60);
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+}
+header {
+    position: static;
+}
+h1 {
+    text-align: center;
+    display: inline-block;
+    color: #482602;
+    font-size: 40pt;
+    font-family: Calibri;
+    margin: 30px 270px 30px 50px;
+    padding: 5px;
+    background-color: rgba(250, 235, 203, 0.60);
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+    position: static;
+}
+#back {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: Calibri;
+    padding: 5px;
+    background-color: #482602;
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    position: static;
+}
+    #back:hover {
+        border: 2px solid #b60b0b;
+        color: #b60b0b;
+        background-color: #ffffff;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+section {
+    text-align: center;
+    height: 460px;
+    position: static;
+}
+.info {
+    margin: 30px 150px 10px 150px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(250, 235, 203, 0.60);
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+.picture1 {
+    margin: 30px 150px 10px 150px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(250, 235, 203, 0.60);
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+.picture2 {
+    margin: 30px 150px 10px 150px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(250, 235, 203, 0.60);
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+.picture3 {
+    margin: 30px 150px 10px 150px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(250, 235, 203, 0.60);
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+h2 {
+    color: #482602;
+    font-size: 20pt;
+    font-family: Calibri;
+    font-weight: bold;
+}
+p1 {
+    color: #482602;
+    font-size: 20pt;
+    font-family: Calibri;
+    display: block;
+}
+p3 {
+    color: #b60b0b;
+    font-size: 20pt;
+    font-family: Calibri;
+    display: block;
+}
+p2 {
+    color: #482602;
+    font-size: 14pt;
+    font-family: Calibri;
+    display: block;
+}
+#myLinks {
+    display:inline;
+}
+#picture1 {
+    background-image: url("../images/Portrait - DeanMarkus.jpg");
+    width: 200px;
+    height: 140px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border: 2px solid #482602;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+}
+    #picture1:hover {
+        border: 2px solid #b60b0b;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+#pic1 {
+    background-image: url("../images/Portrait - DeanMarkus.jpg");
+    width: 350px;
+    height: 245px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border: 2px solid #40fc00;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+#picture2 {
+    background-image: url("../images/WhatsApp Image 2017-05-01 at 18.09.09.jpeg");
+    width: 200px;
+    height: 140px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border: 2px solid #482602;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border-radius: 35px 35px 35px 35px;
+}
+    #picture2:hover {
+        border: 2px solid #b60b0b;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+#pic2 {
+    background-image: url("../images/WhatsApp Image 2017-05-01 at 18.09.09.jpeg");
+    width: 350px;
+    height: 245px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border: 2px solid #40fc00;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+#picture3 {
+    background-image: url("../images/aviad - final.jpg");
+    width: 200px;
+    height: 140px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border: 2px solid #482602;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    -webkit-border-radius: 0px 35px 0px 35px;
+    border-radius: 0px 35px 0px 35px;
+}
+    #picture3:hover {
+        border: 2px solid #b60b0b;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+#pic3 {
+    background-image: url("../images/aviad - final.jpg");
+    width: 350px;
+    height: 245px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    border: 2px solid #40fc00;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 45px;
+}
+li {
+    color: lightseagreen;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 2px solid lightseagreen;
+    background-color: white;
+    margin: 1px 400px 1px 400px;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+section>p1 {
+    margin-top: 30px;
+}
+section>p2 {
+    margin-top: 30px;
+}
+#facebook {
+    background-image: url("../images/icons.jpg");
+    width: 64px;
+    height: 64px;
+    background-position: left bottom;
+    background-size: 128px;
+    display: inline-block;
+    border: 2px solid #482602;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border-radius: 35px 0px 35px 0px;
+    margin-left: 5px;
+}
+    #facebook:hover {
+        background-image: url("../images/icons.jpg");
+        width: 64px;
+        height: 64px;
+        background-position: left top;
+        background-size: 128px;
+        border: 2px solid #b60b0b;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+#mail {
+    background-image: url("../images/icons.jpg");
+    width: 64px;
+    height: 64px;
+    background-position: right bottom;
+    background-size: 128px;
+    display: inline-block;
+    border: 2px solid #482602;
+    -webkit-border-radius: 0px 35px 0px 35px;
+    border-radius: 0px 35px 0px 35px;
+    margin-right: 5px;
+}
+    #mail:hover {
+        background-image: url("../images/icons.jpg");
+        width: 64px;
+        height: 64px;
+        background-position: right top;
+        background-size: 128px;
+        border: 2px solid #b60b0b;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+aside {
+    text-align: center;
+    position: static;
+}
+aside> p1 {
+    display: block;
+    margin: 10px;
+}
+#pic2sirton {
+    text-decoration: none;
+}
+    #pic2sirton:hover {
+        color: #b60b0b; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
