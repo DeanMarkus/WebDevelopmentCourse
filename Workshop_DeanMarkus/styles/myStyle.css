@@ -1,0 +1,406 @@
+body 
+{
+    direction:ltr;
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+section {
+    border-top: 5px groove #e9e7d5;
+}
+/*כותרות*/
+h1 {
+    font-family: 'Montserrat-Regular';
+}
+h2 {
+    font-family: 'Montserrat-Regular';
+}
+h3 {
+    font-family: 'Montserrat-Regular';
+}
+h4 {
+    font-family: 'Montserrat-Regular';
+}
+h5 {
+    font-family: 'Montserrat-Regular';
+}
+/*טקסט רגיל*/
+p1 {
+    font-family: 'Lato-Regular';
+}
+p2 {
+    font-family: 'Lato-Regular';
+}
+p3 {
+    font-family: 'Lato-Regular';
+}
+/*טקסט במייל*/
+p4 {
+    font-family: 'Lato-Regular';
+}
+p6 {
+    font-family: 'Lato-Italic';
+}
+#mail {
+    font-family: 'Lato-Italic';
+}
+/*טקסט בפוטר*/
+p5 {
+    font-family: 'Lato-Light';
+}
+#costumer ul li a {
+    font-family: 'Lato-Light';
+}
+#account ul li a {
+    font-family: 'Lato-Light';
+}
+#shops ul li a {
+    font-family: 'Lato-Light';
+}
+/*סרגל כלים*/
+#nav1 ul {
+    list-style: none;
+}
+#nav1 ul li {
+    display: inline-block;
+    float: left;
+}
+#nav1 ul li #logo {
+    background-image: url("../Images/logo1.png");
+    width: 160px;
+    height: 35px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#nav1 ul li a {
+    display: block;
+    background-color: #e9e7d5;
+    color: #554e4e;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    width: 160px;
+    height: 35px;
+    padding-top:20px;
+}
+/*חלק ראשון*/
+#first {
+    width: 600px;
+    height: 450px;
+    background-image: url("../Images/coverImg.jpg");
+    background-repeat: no-repeat;
+    background-size: 580px;
+    background-position: left;
+    display: inline-block;
+    float: left;
+}
+#first h1 {
+    width: 300px;
+    font-size: 31pt;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #554e4e;
+}
+#first h2 {
+    width: 300px;
+    font-size: 20pt;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #554e4e;
+}
+#first p1 {
+    width: 300px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 130px;
+    display: block;
+    color: #554e4e;
+}
+#first p2 {
+    width: 310px;
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: block;
+    color: #645a5a;
+}
+#first a {
+    text-decoration: none;
+    font-family: 'Lato-Regular';
+    width: 310px;
+    text-align: right;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: block;
+    color: #645a5a;
+}
+#boots {
+    width: 360px;
+    height: 150px;
+    display: inline-block;
+    background-image: url("../Images/boots.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px;
+    background-position: center;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#dress {
+    width: 360px;
+    height: 150px;
+    display: inline-block;
+    background-image: url("../Images/Dress.jpg");
+    background-repeat: no-repeat;
+    background-size: 620px;
+    background-position: bottom;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#sneakers {
+    width: 360px;
+    height: 150px;
+    display: inline-block;
+    background-image: url("../Images/sneakers.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px;
+    background-position: bottom;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    display: block;
+    width: 700px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px 130px 20px 130px;
+    font-size: 20pt;
+    color: #645a5a;
+    text-align: center;
+    border-top: 2px solid #e9e7d5;
+    border-bottom: 2px solid #e9e7d5;
+}
+#picks {
+    width: 700px;
+    height: 180px;
+    display: block;
+    margin: 0px 130px 20px 130px;
+}
+#monkstraps {
+    background-image: url("../Images/monkstraps.jpeg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+    display: inline-block;
+    border: 1px solid #a7580c;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 40px;
+}
+#winter {
+    background-image: url("../Images/2015winter.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+    display: inline-block;
+    border: 1px solid #a7580c;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 40px;
+}
+#bagua {
+    background-image: url("../Images/bagua.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+    display: inline-block;
+    border: 1px solid #a7580c;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+}
+#name {
+    width: 700px;
+    display: block;
+    margin: 0px 130px 20px 130px;
+}
+#name p3 {
+    width: 150px;
+    text-align: center;
+    font-size: 14pt;
+    color: #645a5a;
+    display: inline-block;
+    margin: 20px 40px 20px 40px;
+}
+#more {
+    width: 700px;
+    display: block;
+    margin: 0px 130px 20px 130px;
+    text-decoration: none;
+    font-family: 'Lato-Regular';
+    text-align: right;
+    color: #645a5a;
+}
+#second h3 {
+    margin: 50px 130px 50px 130px;
+}
+p4 {
+    width: 600px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    font-size: 16pt;
+    display: block;
+    color: #645a5a;
+}
+form {
+    width: 700px;
+    margin-left: 130px;
+}
+#mail {
+    width: 460px;
+    height: 40px;
+    font-size: 18pt;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#send {
+    width: 230px;
+    height: 46px;
+    font-size: 18pt;
+    text-align: center;
+    display: inline-block;
+    background-color: #645a5a;
+    border-color: #645a5a;
+    color: white;
+    margin-bottom: 80px;
+}
+aside {
+    background-color: #e9e7d5;
+}
+h4 {
+    font-size: 14pt;
+    color: #645a5a;
+    margin: 10px 10px 20px 0px;
+}
+#costumer {
+    display: inline-block;
+    margin: 10px 10px 20px 90px;
+}
+#costumer a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #645a5a;
+}
+#costumer ul li {
+    margin-top: 10px;
+}
+#account a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #645a5a;
+}
+#account ul li {
+    margin-top: 10px;
+}
+#account {
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+}
+#shops {
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+}
+#shops a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #645a5a;
+}
+#shops ul li {
+    margin-top: 10px;
+}
+.contect {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+    border: 1px solid #c4c3b4;
+    width: 180px;
+}
+h5 {
+    font-size: 12pt;
+    color: #645a5a;
+    margin-top: 10px;
+}
+p5 {
+    font-size: 12pt;
+    color: #645a5a;
+}
+#logo2 {
+    display: block;
+    width: 100px;
+    background-color: #645a5a;
+    padding: 10px 430px 10px 430px;
+}
+#innerFirst h1 {
+    width: 300px;
+    font-size: 31pt;
+    margin: 100px 0px 50px 80px;
+    color: #554e4e;
+}
+#innerFirst h3 {
+    width: 800px;
+    margin: 0px 00px 0px 80px;
+}
+#shoes {
+    background-image: url("../Images/AboutCover.jpeg");
+    width: 800px;
+    height: 220px;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: 50px 80px 50px 80px;
+}
+#innerFirst p1 {
+    width: 800px;
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    font-size: 14pt;
+    color: #645a5a;
+}
+.info {
+    width: 800px;
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    border: 1px solid #c4c3b4;
+}
+.info h2 {
+    margin: 20px 0px 20px 40px;
+    color: #554e4e;
+}
+.info p2 {
+    width: 720px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: block;
+    color: #554e4e;
+}
